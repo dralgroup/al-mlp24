@@ -10,4 +10,8 @@ Preprint on arXiv: https://arxiv.org/abs/2404.11811.
 
 Please cite this work when using this implementation & methodology.
 
+All the funtions of active learning are in `scripts/al_general.py`. In the other folders, you can find the active learning scripts named as `xx_al.py`, final main models `xx_energy_iterationxx.npz`, final auxiliary models `xx_energy_aux_iterationxx.npz`, molecules optimized with the reference method `xx_eqmol.json`, initial dataset of active learning `init_cond_db.json` and the final dataset `labeled_db.json`.
+
+All the scripts are not going to be maintained as the users should use the released MLatom.
+
 
